@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Mehtab Furniture</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--------------------------------Navbar Start------------------------------>
+    <div class="container-fluid p-0" id="navbar">
+        <div class="row border-secondary border-bottom border-opacity-25">
+            <div class="col">
+                <nav class="navbar navbar-expand-sm px-0 py-0">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-uppercase text-white" href="#">Mehtab Furniture</a>
+                        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                                <li class="nav-item py-3">
+                                    <a class="nav-link text-white mx-2 active" href="#" aria-current="page">Home    
+                                        <span class="visually-hidden">(current)</span></a>
+                                </li>
+                                <li class="nav-item py-3 dropdown mx-2">
+                                    <a class="nav-link text-white dropdown-toggle" href="#" id="dropdownId"
+                                        data-bs-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">Categories<i class="bi bi-arrow-down-short"></i></a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId" role="menu">
+                                        <div class="container-fluid px-5">
+                                            <div class="row">
+                                                <div class="col py-3">
+                                                    <h5 class="fs-4 text-white">Shop Types</h5>
+                                                    <a href="#" class="nav-link text-white">Minimal List</a>
+                                                    <a href="#" class="nav-link text-white">Filter List</a>
+                                                    <a href="#" class="nav-link text-white">Masonry List</a>
+                                                </div>
+                                                <div class="col py-3 ">
+                                                    <h5 class="fs-4 text-white">Shop Single</h5>
+                                                    <a href="#" class="nav-link text-white">Standard Product</a>
+                                                    <a href="#" class="nav-link text-white">Big Images Product</a>
+                                                    <a href="#" class="nav-link text-white">Grouped Product</a>
+                                                    <a href="#" class="nav-link text-white">Slider Product</a>
+                                                    <a href="#" class="nav-link text-white">New Product</a>
+                                                    <a href="#" class="nav-link text-white">Countdown Product</a>
+                                                    <a href="#" class="nav-link text-white">Masonry Product</a>
+                                                </div>
+                                                <div class="col py-3">
+                                                    <h5 class="fs-4">Collection</h5>
+
+                                                    <a href="#" class="nav-link text-white">Dinning Table</a>
+                                                    <a href="#" class="nav-link text-white">Chairs</a>
+                                                    <a href="#" class="nav-link text-white">Sofas</a>
+                                                    <a href="#" class="nav-link text-white">Pendants</a>
+                                                    <a href="#" class="nav-link text-white">Coffee table</a>
+                                                    <a href="#" class="nav-link text-white">Lamps</a>
+                                                </div>
+                                                <div class="col py-3">
+                                                    <h5 class="fs-4 text-white">Shop Pages</h5>
+                                                    <a href="#" class="nav-link text-white">Cart</a>
+                                                    <a href="#" class="nav-link text-white">Checkout</a>
+                                                    <a href="#" class="nav-link text-white">My Avvount</a>
+                                                    <a href="#" class="nav-link text-white">Gift Cards</a>
+                                                    <a href="#" class="nav-link text-white">Wishlist</a>
+                                                </div>
+                                                <div class="col py-4 nav-img">
+                                                    <div class="row row-cols-2 g-3">
+                                                        <div class="col">
+                                                            <img src="images/nav-img1.png" class="img-fluid " alt="">
+                                                        </div>
+                                                        <div class="col">
+                                                            <img src="images/nav-img2.png" class="img-fluid " alt="">
+                                                        </div>
+                                                        <div class="col">
+                                                            <img src="images/nav-img3.png" class="img-fluid " alt="">
+                                                        </div>
+                                                        <div class="col">
+                                                            <img src="images/nav-img4.png" class="img-fluid " alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item py-3"><a class="nav-link text-white mx-2" href="#">About</a>
+                                </li>
+                                <li class="nav-item py-3"><a class="nav-link text-white mx-2" href="#">Shop</a></li>
+                                <li class="nav-item py-3"><a class="nav-link text-white mx-2" href="#">Blog</a></li>
+                                <li class="nav-item py-3"><a class="nav-link text-white mx-2" href="#">Contact
+                                        Us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex my-2 my-lg-0">
+                                <a href="#" class="text-white mx-2 nav-link">Search<i class="bi bi-search mx-2"></i></a>
+                                <a href="#" class="text-white mx-2 nav-link">Account<i
+                                        class="bi bi-person mx-2"></i></a>
+                                <a href="#" class="text-white mx-2 nav-link">Wishlist<i
+                                        class="bi bi-heart mx-2"></i></a>
+                                <a href="#" class="text-white mx-2 nav-link">Cart<i class="bi bi-bag mx-2"></i></a>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Navbar End------------------------------>
+
+
+
+    <!--------------------------------Header Start------------------------------>
+    <div class="container-fluid p-0" id="header">
+        <div class="row g-0">
+            <div class="col">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="images/header-img1.jpg" class="img-fluid w-100" alt="...">
+                            <div class="item-content">
+                                <div class="inner-content">
+
+                                    <h1 class="display-2 text-uppercase p-0 w-75">high quality Furniture</h1>
+                                    <p class="text-black w-50">We understand the importance of durability and
+                                        longevity.
+                                        That's why we use only the
+                                        finest materials, ensuring that your furniture stands the test of time and
+                                        retains
+                                        its beauty for years to come.</p>
+                                    <a href="#" class="btn bg-black carousel-btn text-white rounded-0 py-2 px-5"
+                                        style="font-size: .8rem;">Shop Now <i class="bi bi-arrow-right-short"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/header-img2.jpg" class="img-fluid w-100" alt="...">
+                            <div class="item-content">
+                                <div class="inner-content">
+
+                                    <h1 class="display-2 text-uppercase p-0 w-75">high quality Furniture</h1>
+                                    <p class="text-black w-50">We understand the importance of durability and
+                                        longevity.
+                                        That's why we use only the
+                                        finest materials, ensuring that your furniture stands the test of time and
+                                        retains
+                                        its beauty for years to come.</p>
+                                    <a href="#" class="btn bg-black carousel-btn text-white rounded-0 py-2 px-5"
+                                        style="font-size: .8rem;">Shop Now <i class="bi bi-arrow-right-short"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/7587779/pexels-photo-7587779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                class="img-fluid w-100" alt="...">
+                            <div class="item-content">
+                                <div class="inner-content">
+
+                                    <h1 class="display-2 text-uppercase p-0 w-75">high quality Furniture</h1>
+                                    <p class="text-black w-50">We understand the importance of durability and
+                                        longevity.
+                                        That's why we use only the
+                                        finest materials, ensuring that your furniture stands the test of time and
+                                        retains
+                                        its beauty for years to come.</p>
+                                    <a href="#" class="btn bg-black carousel-btn text-white rounded-0 py-2 px-5"
+                                        style="font-size: .8rem;">Shop Now <i class="bi bi-arrow-right-short"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button> -->
+                    <div class="carousel-icon-left carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                    <div class="carousel-icon-right carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Header End------------------------------>
+
+
+
+
+    <!--------------------------------Main Start------------------------------>
+    <div class="container-fluid py-5 px-0" id="main">
+        <div class="row px-5 py-3 main-text">
+            <div class="col text-center main-text">
+                <p class="text-uppercase text-white">search by</p>
+                <h5 class="display-6 text-uppercase text-white">Categories</h5>
+            </div>
+        </div>
+        <div class="row px-1 px-lg-5 px-md-3 pt-5 row-cols-1 row-cols-md-3 row-cols-lg-6">
+            <div class="col">
+                <div class="card categories-card border-0 rounded-0 bg-transparent ">
+                    <div class="categories-img">
+                        <img src="images/main-img1.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body p-0">
+                        <a href="#" class="btn text-white px-0 stretched-link categories-btn text-uppercase">01
+                            CHAIRS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card categories-card border-0 rounded-0 bg-transparent ">
+                    <div class="categories-img">
+                        <img src="images/main-img2.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body p-0">
+                        <a href="#" class="btn text-white px-0 stretched-link categories-btn text-uppercase">02
+                            SOFAS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card categories-card border-0 rounded-0 bg-transparent ">
+                    <div class="categories-img">
+                        <img src="images/main-img3.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body p-0">
+                        <a href="#" class="btn text-white px-0 stretched-link categories-btn text-uppercase">03
+                            pendants</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card categories-card border-0 rounded-0 bg-transparent ">
+                    <div class="categories-img">
+                        <img src="images/main-img4.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body p-0">
+                        <a href="#" class="btn text-white px-0 stretched-link categories-btn text-uppercase">04 Home
+                            Decor</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card categories-card border-0 rounded-0 bg-transparent ">
+                    <div class="categories-img">
+                        <img src="images/main-img5.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body p-0">
+                        <a href="#" class="btn text-white px-0 stretched-link categories-btn text-uppercase">05
+                            coffee
+                            table</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card categories-card border-0 rounded-0 bg-transparent ">
+                    <div class="categories-img">
+                        <img src="images/main-img6.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body p-0">
+                        <a href="#" class="btn text-white px-0 stretched-link categories-btn text-uppercase">06
+                            lamps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row px-1 px-lg-5 px-md-3 pt-5 row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <div class="col">
+                <p class="text-white fs-2 main-b-text">Only the finest materials are used in our production process. Quality is
+                    always our top priority.</p>
+            </div>
+            <div class="col">
+                <p class="text-white fs-6 main-b-text">Discover unparalleled comfort and timeless elegance with our exquisite
+                    furniture collection. Crafted with precision and passion, each piece is a testament to
+                    exceptional
+                    quality and style. Elevate your living space with our diverse range of sofas, chairs, and
+                    tables,
+                    meticulously designed to seamlessly blend functionality and aesthetics.
+
+                    Immerse yourself in the rich textures of our premium materials, from sumptuous leather to
+                    luxurious
+                    fabrics, ensuring a luxurious and inviting atmosphere in your home. Our furniture is not just
+                    about
+                    aesthetics; it's about creating a haven where you can unwind, entertain, and make lasting
+                    memories.
+
+                    Explore a fusion of contemporary and classic designs that cater to your unique taste and
+                    preferences. With an unwavering commitment to durability and innovation, our furniture is built
+                    to
+                    withstand the test of time. Transform your home into a sanctuary of style and comfort—shop our
+                    curated collection today and experience the art of living beautifully.</p>
+                <a href="#" class="btn text-white bg-black rounded-0 border-0 py-2 px-5 read-btn"
+                    style="font-size: .8rem;">Read More <i class="bi bi-arrow-right-short"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Main End------------------------------>
+
+
+
+    <!--------------------------------Discover Products Starts------------------------------>
+    <div class="container-fluid px-0 py-5 border-top border-secondary border-opacity-25" id="discover">
+        <div class="row px-5">
+            <div class="col text-center dis-head">
+                <P class="text-white text-uppercase">Featured</P>
+                <h5 class="display-6 text-uppercase text-white">Discover</h5>
+            </div>
+        </div>
+        <div class="row px-1 px-lg-5 px-md-3 pt-5 row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <div class="col">
+                <div class="card discover-card border-0 rounded-0 bg-transparent ">
+                    <div class="discover-img">
+                        <img src="https://images.pexels.com/photos/16249593/pexels-photo-16249593/free-photo-of-chair-with-pillow.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="img-fluid" alt="...">
+                        <div class="discover-bot-section">
+                            <div class="row">
+                                <div class="col text-center bg-black border-end">
+                                    <a href="#" class="nav-link py-3 discover-btn">Quick View</a>
+                                </div>
+                                <div class="col text-center bg-black">
+                                    <a href="#" class="nav-link py-3 discover-btn">Add Wishlist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body px-0">
+                        <h5 class="card-title text-white fw-normal">Poliframe tuffed accnet chair 29.1″W, jet black
+                        </h5>
+                        <p class="card-text text-white">$258.99</p>
+                        <a href="#" class="btn text-white categories-btn stretched-link p-0">Add to Cart<i
+                                class="bi bi-bag mx-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card discover-card border-0 rounded-0 bg-transparent ">
+                    <div class="discover-img">
+                        <img src="images/dis-img2.jpg" class="img-fluid" alt="...">
+                        <div class="discover-bot-section">
+                            <div class="row">
+                                <div class="col text-center bg-black border-end">
+                                    <a href="#" class="nav-link py-3 discover-btn">Quick View</a>
+                                </div>
+                                <div class="col text-center bg-black">
+                                    <a href="#" class="nav-link py-3 discover-btn">Add Wishlist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body px-0">
+                        <h5 class="card-title text-white fw-normal">Stockholm Minimal Chair, Oak Wood with Fine
+                            finish
+                        </h5>
+                        <p class="card-text text-white">$237.89</p>
+                        <a href="#" class="btn text-white categories-btn stretched-link p-0">Add to Cart<i
+                                class="bi bi-bag mx-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card discover-card border-0 rounded-0 bg-transparent ">
+                    <div class="discover-img">
+                        <img src="images/dis-img3.jpg" class="img-fluid" alt="...">
+                        <div class="discover-bot-section">
+                            <div class="row">
+                                <div class="col text-center bg-black border-end">
+                                    <a href="#" class="nav-link py-3 discover-btn">Quick View</a>
+                                </div>
+                                <div class="col text-center bg-black">
+                                    <a href="#" class="nav-link py-3 discover-btn">Add Wishlist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body px-0">
+                        <h5 class="card-title text-white fw-normal">Sauder Boulevard Cafe Lounge Chair, Camel finish
+                        </h5>
+                        <p class="card-text text-white">$168.99</p>
+                        <a href="#" class="btn text-white categories-btn stretched-link p-0">Add to Cart<i
+                                class="bi bi-bag mx-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Discover Products End------------------------------>
+
+
+
+
+
+    <!--------------------------------Gallery Starts------------------------------>
+    <div class="container-fluid px-0 py-5 border-top border-secondary border-opacity-25" id="gallery">
+        <div class="row px-5">
+            <div class="col text-center shop-head">
+                <P class="text-white text-uppercase">Visit</P>
+                <h5 class="display-6 text-uppercase text-white">Shop All</h5>
+            </div>
+        </div>
+        <div class="row px-1 px-lg-5 px-md-3 pt-5 g-4 row-cols-1 row-cols-lg-2">
+            <div class="col g-4">
+                <div class="row g-4 row-cols-1 row-cols-lg-3 row-cols-md-3">
+                    <div class="col">
+                        <img src="https://images.pexels.com/photos/3144581/pexels-photo-3144581.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+                <div class="row g-4 pt-4">
+                    <div class="col-4">
+                        <div class="row g-4 d-flex flex-column">
+                            <div class="col">
+                                <img src="https://images.pexels.com/photos/4846437/pexels-photo-4846437.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                    class="img-fluid w-100 pb-1" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="https://images.pexels.com/photos/10493902/pexels-photo-10493902.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                    class="img-fluid w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <img src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row g-4">
+                    <div class="col-8">
+                        <img src="https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&w=1600 "
+                            class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="col-4">
+                        <div class="row g-4 d-flex flex-column">
+                            <div class="col">
+                                <img src="https://images.pexels.com/photos/11112745/pexels-photo-11112745.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                    class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="https://images.pexels.com/photos/6963787/pexels-photo-6963787.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                    class="img-fluid w-100 pt-2" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4 pt-4 row-cols-1 row-cols-lg-3 row-cols-md-3">
+                    <div class="col">
+                        <img src="https://images.pexels.com/photos/2258083/pexels-photo-2258083.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://images.pexels.com/photos/4207890/pexels-photo-4207890.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="https://images.pexels.com/photos/1362385/pexels-photo-1362385.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col text-center">
+                <a href="#" class="btn text-white bg-black rounded-0 border-0 py-2 px-5 explore-btn"
+                    style="font-size: .8rem;">Shop All <i class="bi bi-arrow-right-short"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Gallery End------------------------------>
+
+
+
+
+
+    <!--------------------------------Testimonial Starts------------------------------>
+    <div class="container-fluid px-0 py-5 border-top border-secondary border-opacity-25" id="testimonial">
+        <div class="row px-5">
+            <div class="col text-center test-head">
+                <P class="text-white text-uppercase">see</P>
+                <h5 class="display-6 text-uppercase text-white">testimonial</h5>
+            </div>
+        </div>
+        <div class="row  px-1 px-lg-5 px-md-3 g-lg-0 pt-5">
+            <div class="col">
+                <div id="carouselExampleCaptions" class="carousel carousel-testimonial slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner testimonial-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption test-caption text-center">
+                                <div class="card test-card bg-transparent border-0 rounded-0">
+                                    <div class="card-body">
+                                        <i class="bi bi-quote display-2"></i>
+                                        <h5 class="card-title">John Jacob</h5>
+                                        <p class="card-text">I recently purchased the "Elegant Harmony Dining
+                                            Table,"
+                                            and I couldn't be happier with my choice. This piece has truly
+                                            transformed
+                                            my dining space, blending style and functionality seamlessly.I recently
+                                            purchased the "Elegant Harmony Dining
+                                            Table,"
+                                            and I couldn't be happier with my choice. This piece has truly
+                                            transformed
+                                            my dining space, blending style and functionality seamlessly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption test-caption text-center">
+                                <div class="card test-card bg-transparent border-0 rounded-0">
+                                    <div class="card-body">
+                                        <i class="bi bi-quote display-2"></i>
+                                        <h5 class="card-title">John Jacob</h5>
+                                        <p class="card-text">I recently purchased the "Elegant Harmony Dining
+                                            Table,"
+                                            and I couldn't be happier with my choice. This piece has truly
+                                            transformed
+                                            my dining space, blending style and functionality seamlessly. The
+                                            craftsmanship of this table is exceptional. The
+                                            solid
+                                            wood construction not only exudes quality but also gives it a sturdiness
+                                            that is hard to find in many modern pieces. The design is timeless,
+                                            striking
+                                            a perfect balance between contemporary aesthetics and a classic feel.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption test-caption text-center">
+                                <div class="card test-card bg-transparent border-0 rounded-0">
+                                    <div class="card-body">
+                                        <i class="bi bi-quote display-2"></i>
+                                        <h5 class="card-title">John Jacob</h5>
+                                        <p class="card-text">I highly recommend this dining table to anyone seeking
+                                            a
+                                            blend of elegance and durability. It's a fantastic investment in both
+                                            style
+                                            and functionality, and I find myself looking forward to many more shared
+                                            meals around this beautiful piece. I recently purchased the "Elegant
+                                            Harmony Dining
+                                            Table,"
+                                            and I couldn't be happier with my choice. This piece has truly
+                                            transformed
+                                            my dining space, blending style and functionality seamlessly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-icon-left carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                    <div class="testimonial-icon-right carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Testimonial End------------------------------>
+
+
+
+
+
+    <!--------------------------------Newletter Starts------------------------------>
+    <div class="container-fluid px-0 py-5 border-top border-secondary border-opacity-25" id="newsletter">
+        <div class="row px-5">
+            <div class="col text-center news-head">
+                <P class="text-white text-uppercase">Contact</P>
+                <h5 class="display-6 text-uppercase text-white">Get in Touch</h5>
+            </div>
+        </div>
+        <div class="row px-1 px-lg-5 px-md-3 pt-5">
+            <div class="col text-center">
+                <p class="text-white">Subscribe to our newsletter and receive the latest product news,
+                    stories, invitations to exclusive
+                    design events and much, much more.</p>
+                <form class="mt-4">
+                    <div class="mb-3">
+                        <input type="email" 
+                            class="form-control bg-transparent border border-secondary rounded-0 text-white shadow-none m-auto email-input"
+                            id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                    </div>
+                    <a href="#" class="btn bg-black carousel-btn text-white rounded-0 py-2 px-5"
+                        style="font-size: .8rem;">Subscribe<i class="bi bi-arrow-right-short"></i></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Newletter End------------------------------>
+
+
+
+
+
+    <!--------------------------------Footer Starts------------------------------>
+    <div class="container-fluid p-0" id="footer">
+        <div class="row py-5">
+            <div class="col box px-5">
+                <h5 class="fs-5 text-white">About Us</h5>
+                <p class="text-secondary text-start w-75">
+                    Welcome to Mehtab Furniture, where passion meets craftsmanship. We create timeless furniture that
+                    blends style and functionality.</p>
+            </div>
+            <div class="col box px-5">
+                <h5 class="fs-5 text-white">Support</h5>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Customer Service</a>
+                </li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Store Location</a>
+                </li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Shipping Policy</a>
+                </li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Return & Refund
+                        Policy</a></li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Help</a></li>
+            </div>
+            <div class="col box px-5">
+                <h5 class="fs-5 text-white text-start">Account</h5>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">FAQ</a></li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Contact Us</a></li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Order Tracking</a>
+                </li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Our New Product</a>
+                </li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">Payment Methods</a>
+                </li>
+                <li class="nav-item list-unstyled py-1"><a href="#" class="nav-link text-secondary">On Sale Product</a>
+                </li>
+
+            </div>
+            <div class="col box follow-us px-5">
+                <h5 class="fs-5 text-white">Follow Us</h5>
+                <a href="#" class="text-secondary mx-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row pb-4">
+            <div class="col text-center">
+                <P class="text-white copyright">Copyright © 2023. All Right Reserved</P>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------Footer End------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <!-- CDN Links  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Custom JS  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
