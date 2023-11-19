@@ -55,9 +55,7 @@ gsap.from('#main .main-text', {
   duration: .5,
   scrollTrigger: {
     trigger: '#main .main-text',
-    scroller: "Body",
-    start: "top 60%",
-    
+    scroller: "Body",    
   }
 })
 gsap.from('#main .main-b-text', {
