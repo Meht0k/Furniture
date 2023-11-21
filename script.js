@@ -1,4 +1,9 @@
 
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
 
 gsap.to("#navbar", {
   top: 0,
@@ -148,10 +153,5 @@ gsap.to(".main-text", {
     scrub: true,
     scroller: "#smoothScroll"
   },
-});
-
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
 });
 
