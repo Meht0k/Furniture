@@ -1,10 +1,4 @@
 
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
-
-
 gsap.to("#navbar", {
   top: 0,
   duration: .6,
